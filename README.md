@@ -18,13 +18,13 @@ on tectova.com.
 
 ## Tools
 
-| Tool | What it does | Example question |
+| Tool | What it does | Ask your assistant |
 |---|---|---|
-| `search_fashion_records` | Finds models, creatives, fashion houses and agencies by name. | "Is Kasia Struss on Tectova?" |
-| `get_talent_runway_record` | Returns a model's or creative's documented Big Four runway record: seasons, houses, agencies and related people. | "How many Big Four shows has Julia Nobis walked?" |
-| `get_show_cast` | Returns the cast of a runway show. | "Who walked Chanel's latest show?" |
-| `get_brand_runway_history` | Returns a fashion house's runway shows over time. | "List Saint Laurent's runway shows on record." |
-| `get_country_talent` | Returns models from a country on the runway record. | "Which Brazilian models are on Tectova's runway record?" |
+| `get_country_talent` | Models from a country at a given fashion week and season: who walked, which shows, who opened or closed, who was new. | "Which Brazilian models walked New York Fashion Week this season, and who opened or closed a show?" |
+| `get_talent_runway_record` | A model's or creative's documented runway record: seasons, houses, agencies and frequent collaborators. | "How many shows did Julia Nobis walk in SS27, and for which houses?" |
+| `get_show_cast` | The cast of a runway show. | "Who walked Prada's SS27 womenswear show?" |
+| `get_brand_runway_history` | A fashion house's runway shows over time and the faces it keeps casting. | "Which models does Saint Laurent cast again and again?" |
+| `search_fashion_records` | Finds models, creatives, fashion houses and agencies by name, so the other tools can look them up. | "Which agency represents Awar Odhiang?" |
 
 All tools are read-only. Answers open with one sentence an assistant can quote, followed by the
 tectova.com link and the date the data is current to.
