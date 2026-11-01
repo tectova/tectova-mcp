@@ -1,0 +1,41 @@
+{
+  "identifier": "tectova-runway-records",
+  "name": "Tectova Runway Records",
+  "version": "1.0.0",
+  "description": "The runway record of the fashion industry, for AI agents. Look up models' runway careers, show casts, fashion-house histories and models by country at each fashion week. Read-only, no API key; every answer links back to tectova.com.",
+  "author": "Tectova",
+  "authorUrl": "https://tectova.com",
+  "homepage": "https://tectova.com/tools/mcp",
+  "cloudEndpoint": "https://tectova.com/mcp",
+  "icon": "https://tectova.com/press/tectova-mark-oxblood-1200.png",
+  "tags": [
+    "fashion",
+    "runway",
+    "fashion-week",
+    "models",
+    "fashion-data",
+    "casting"
+  ],
+  "tools": [
+    {
+      "name": "search_fashion_records",
+      "description": "Find models, creatives, fashion houses and agencies on Tectova's runway record. Use this first to resolve a name to a slug."
+    },
+    {
+      "name": "get_talent_runway_record",
+      "description": "A model's or creative's documented runway record on Tectova: Big Four runway count, seasons, first and latest season, top houses, per-season rows, agencies on record, honours and the people they work with most. Input a talent slug from search_fashion_records."
+    },
+    {
+      "name": "get_show_cast",
+      "description": "The documented cast of one runway show on Tectova: house, season, city, date where on record, collection design credits and the models with their Tectova pages, 50 per page. Input a show path from get_brand_runway_history or get_talent_runway_record."
+    },
+    {
+      "name": "get_brand_runway_history",
+      "description": "A fashion house's documented runway history on Tectova: show counts, the faces of the house and its shows with a cast register, newest first, 25 per page. Input a brand slug from search_fashion_records."
+    },
+    {
+      "name": "get_country_talent",
+      "description": "Models of one nationality on Tectova's Big Four runway record, mirroring the site's three country pages. Country alone: the most cast, the last five seasons, models new to the circuit, season by season, the houses and casting directors that cast them most. Add city: that fashion week across every season since 2002. Add city and season: every model there that season, their shows, who opened or closed a show and who was new to the city. Answers questions such as \"Which Chinese models walked New York Fashion Week this season?\""
+    }
+  ]
+}
