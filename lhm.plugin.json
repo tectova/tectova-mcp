@@ -1,5 +1,5 @@
 {
-  "identifier": "tectova-runway-records",
+  "identifier": "tectova-tectova-mcp",
   "name": "Tectova Runway Records",
   "version": "1.0.0",
   "description": "The runway record of the fashion industry, for AI agents. Look up models' runway careers, show casts, fashion-house histories and models by country at each fashion week. Read-only, no API key; every answer links back to tectova.com.",
