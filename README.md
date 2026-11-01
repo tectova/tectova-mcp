@@ -58,8 +58,9 @@ Use the server URL `https://tectova.com/mcp` in any MCP client. Setup for each c
 <details>
 <summary><b>Claude</b> (claude.ai, Claude Desktop, Claude Code)</summary>
 
-In claude.ai or Claude Desktop: Settings → Connectors → Add custom connector, then paste
-`https://tectova.com/mcp`.
+In claude.ai or Claude Desktop: Customize → Connectors → Add → Add custom connector, paste
+`https://tectova.com/mcp` and choose No sign in. On Team and Enterprise plans, an owner adds it
+under Organization settings → Connectors.
 
 In Claude Code:
 
@@ -99,7 +100,8 @@ Add to `.vscode/mcp.json`:
 <details>
 <summary><b>ChatGPT</b></summary>
 
-In developer mode, add `https://tectova.com/mcp` as a custom connector.
+On the web: Plugins → + → Add custom MCP server. Paste `https://tectova.com/mcp` as the Server URL,
+choose No authentication, then Create as a plugin.
 </details>
 
 ## Install as a Claude Code plugin
