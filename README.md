@@ -28,22 +28,19 @@ on tectova.com.
 
 ### Ask your assistant
 
-**Fashion weeks and countries**
-- "Which Chinese models walked New York Fashion Week this season?"
-- "Which Danish models opened or closed a show in Milan this season?"
-- "Which Argentine models are new to the runway?"
-- "Which casting directors cast Japanese models most often?"
-- "Who is the most cast Dutch model at Paris Fashion Week?"
-
-**Models**
-- "Did Awar Odhiang walk Milan Fashion Week in FW26?"
-- "How many shows did Julia Nobis walk in SS27, and for which houses?"
-- "Which agency represents Awar Odhiang?"
-
-**Shows and houses**
-- "Who walked for Prada in FW26?"
-- "Who walked Prada's SS27 womenswear show?"
-- "Which models does Saint Laurent cast again and again?"
+| Question | Tool |
+|---|---|
+| "Which Chinese models walked New York Fashion Week this season?" | `get_country_talent` |
+| "Which Danish models opened or closed a show in Milan this season?" | `get_country_talent` |
+| "Which Argentine models are new to the runway?" | `get_country_talent` |
+| "Which casting directors cast Japanese models most often?" | `get_country_talent` |
+| "Who is the most cast Dutch model at Paris Fashion Week?" | `get_country_talent` |
+| "Did Awar Odhiang walk Milan Fashion Week in FW26?" | `get_talent_runway_record` |
+| "How many shows did Julia Nobis walk in SS27, and for which houses?" | `get_talent_runway_record` |
+| "Which agency represents Awar Odhiang?" | `search_fashion_records`, then `get_talent_runway_record` |
+| "Who walked for Prada in FW26?" | `get_brand_runway_history`, then `get_show_cast` |
+| "Who walked Prada's SS27 womenswear show?" | `get_show_cast` |
+| "Which models does Saint Laurent cast again and again?" | `get_brand_runway_history` |
 
 All tools are read-only. Answers open with one sentence an assistant can quote, followed by the
 tectova.com link and the date the data is current to.
