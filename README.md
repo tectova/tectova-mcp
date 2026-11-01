@@ -19,8 +19,8 @@ tectova.com.
 - **Server URL:** `https://tectova.com/mcp` (Streamable HTTP)
 - **Docs:** <https://tectova.com/tools/mcp>
 
-This repository holds documentation and the registry metadata (`server.json`). The server runs
-on tectova.com.
+This repository holds documentation, the registry metadata (`server.json`) and a Claude Code
+plugin. The server runs on tectova.com.
 
 ## Tools
 
@@ -101,6 +101,19 @@ Add to `.vscode/mcp.json`:
 
 In developer mode, add `https://tectova.com/mcp` as a custom connector.
 </details>
+
+## Install as a Claude Code plugin
+
+The plugin adds the server and a `fashion-runway-research` skill that tells Claude when to use
+the tools and how to cite them. In a Claude Code session:
+
+```text
+/plugin marketplace add tectova/tectova-mcp
+/plugin install tectova@tectova
+```
+
+On Claude Code 2.1.275 or later, one line does both:
+`/plugin install tectova --marketplace tectova/tectova-mcp`.
 
 ## What the data covers
 
