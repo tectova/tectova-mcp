@@ -42,7 +42,7 @@ on tectova.com.
 | "Which casting directors cast Japanese models most often?" | `get_country_talent` |
 | "Who is the most cast Dutch model at Paris Fashion Week?" | `get_country_talent` |
 | "Did Awar Odhiang walk Milan Fashion Week in FW26?" | `get_talent_runway_record` |
-| "How many shows did Julia Nobis walk in SS27, and for which houses?" | `get_talent_runway_record` |
+| "Which houses has Julia Nobis walked for most?" | `get_talent_runway_record` |
 | "Which agency represents Awar Odhiang?" | `search_fashion_records`, then `get_talent_runway_record` |
 | "Who walked for Prada in FW26?" | `get_brand_runway_history`, then `get_show_cast` |
 | "Who walked Prada's SS27 womenswear show?" | `get_show_cast` |
