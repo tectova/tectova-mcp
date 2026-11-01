@@ -1,0 +1,17 @@
+{
+  "name": "tectova",
+  "description": "Tectova's plugin for Claude Code: the runway record of the fashion industry.",
+  "owner": {
+    "name": "Tectova",
+    "url": "https://tectova.com"
+  },
+  "plugins": [
+    {
+      "name": "tectova",
+      "source": "./",
+      "description": "Look up models' runway careers, show casts, fashion-house histories and models by country at each fashion week. Read-only, no API key.",
+      "category": "research",
+      "tags": ["fashion", "runway", "fashion-week", "models", "mcp"]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "tectova",
+  "displayName": "Tectova",
+  "version": "1.0.0",
+  "description": "The runway record of the fashion industry, for Claude. Look up models' runway careers, show casts, fashion-house histories and models by country at each fashion week, through Tectova's remote, read-only MCP server. No API key; every answer links back to tectova.com.",
+  "author": {
+    "name": "Tectova",
+    "url": "https://tectova.com"
+  },
+  "homepage": "https://tectova.com/tools/mcp",
+  "repository": "https://github.com/tectova/tectova-mcp",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "fashion",
+    "runway",
+    "fashion-week",
+    "models",
+    "mcp"
+  ],
+  "icon": "./.claude-plugin/icon.png",
+  "documentationUrl": "https://tectova.com/tools/mcp",
+  "privacyPolicyUrl": "https://tectova.com/privacy",
+  "termsOfServiceUrl": "https://tectova.com/terms"
+}

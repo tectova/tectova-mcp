@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tectova": {
+      "type": "http",
+      "url": "https://tectova.com/mcp"
+    }
+  }
+}
