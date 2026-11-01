@@ -8,7 +8,6 @@
 ![read-only](https://img.shields.io/badge/access-read--only-16140F?style=flat-square)
 ![no API key](https://img.shields.io/badge/auth-no%20API%20key-16140F?style=flat-square)
 ![license](https://img.shields.io/badge/docs-CC%20BY%204.0-6B665C?style=flat-square)
-![status](https://img.shields.io/badge/status-launching%20Nov%202026-D8D2C6?style=flat-square)
 
 The official [Model Context Protocol](https://modelcontextprotocol.io) server for
 [Tectova](https://tectova.com), the runway record of the fashion industry.
@@ -19,8 +18,6 @@ tectova.com.
 
 - **Server URL:** `https://tectova.com/mcp` (Streamable HTTP)
 - **Docs:** <https://tectova.com/tools/mcp>
-
-> **Status:** launching November 2026. Until then, the endpoint isn't live.
 
 This repository holds documentation and the registry metadata (`server.json`). The server runs
 on tectova.com.
