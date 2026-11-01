@@ -29,11 +29,11 @@ on tectova.com.
 ### Ask your assistant
 
 **Fashion weeks and countries**
-- "Which Brazilian models walked New York Fashion Week this season?"
-- "Which Brazilian models opened or closed a show in Milan this season?"
+- "Which Chinese models walked New York Fashion Week this season?"
+- "Which Danish models opened or closed a show in Milan this season?"
 - "Which Argentine models are new to the runway?"
-- "Which casting directors cast Argentine models most often?"
-- "Who is the most cast Brazilian model at Paris Fashion Week?"
+- "Which casting directors cast Japanese models most often?"
+- "Who is the most cast Dutch model at Paris Fashion Week?"
 
 **Models**
 - "Did Awar Odhiang walk Milan Fashion Week in FW26?"
