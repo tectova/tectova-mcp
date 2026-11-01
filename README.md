@@ -1,4 +1,14 @@
+<p align="center">
+  <a href="https://tectova.com"><img src="assets/banner.png" alt="Tectova MCP: the runway record, for AI agents" width="100%"></a>
+</p>
+
 # Tectova MCP server
+
+![remote MCP](https://img.shields.io/badge/MCP-remote-7A1E1E?style=flat-square)
+![read-only](https://img.shields.io/badge/access-read--only-16140F?style=flat-square)
+![no API key](https://img.shields.io/badge/auth-no%20API%20key-16140F?style=flat-square)
+![license](https://img.shields.io/badge/docs-CC%20BY%204.0-6B665C?style=flat-square)
+![status](https://img.shields.io/badge/status-launching%20Nov%202026-D8D2C6?style=flat-square)
 
 The official [Model Context Protocol](https://modelcontextprotocol.io) server for
 [Tectova](https://tectova.com), the runway record of the fashion industry.
@@ -8,7 +18,6 @@ fashion-house histories and models by country. Every answer links back to the ma
 tectova.com.
 
 - **Server URL:** `https://tectova.com/mcp` (Streamable HTTP)
-- **Access:** read-only, no account or API key
 - **Docs:** <https://tectova.com/tools/mcp>
 
 > **Status:** launching November 2026. Until then, the endpoint isn't live.
@@ -47,16 +56,25 @@ tectova.com link and the date the data is current to.
 
 ## Connect
 
-**Claude (claude.ai and Claude Desktop):** Settings → Connectors → Add custom connector, then
-paste `https://tectova.com/mcp`.
+Use the server URL `https://tectova.com/mcp` in any MCP client. Setup for each client:
 
-**Claude Code:**
+<details>
+<summary><b>Claude</b> (claude.ai, Claude Desktop, Claude Code)</summary>
+
+In claude.ai or Claude Desktop: Settings → Connectors → Add custom connector, then paste
+`https://tectova.com/mcp`.
+
+In Claude Code:
 
 ```sh
 claude mcp add --transport http tectova https://tectova.com/mcp
 ```
+</details>
 
-**Cursor** (`~/.cursor/mcp.json`):
+<details>
+<summary><b>Cursor</b></summary>
+
+Add to `~/.cursor/mcp.json`:
 
 ```json
 {
@@ -65,8 +83,12 @@ claude mcp add --transport http tectova https://tectova.com/mcp
   }
 }
 ```
+</details>
 
-**VS Code** (`.vscode/mcp.json`):
+<details>
+<summary><b>VS Code</b></summary>
+
+Add to `.vscode/mcp.json`:
 
 ```json
 {
@@ -75,8 +97,13 @@ claude mcp add --transport http tectova https://tectova.com/mcp
   }
 }
 ```
+</details>
 
-**ChatGPT:** in developer mode, add `https://tectova.com/mcp` as a custom connector.
+<details>
+<summary><b>ChatGPT</b></summary>
+
+In developer mode, add `https://tectova.com/mcp` as a custom connector.
+</details>
 
 ## What the data covers
 
