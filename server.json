@@ -3,7 +3,16 @@
   "name": "com.tectova/runway-records",
   "title": "Tectova Runway Records",
   "description": "Runway careers, show casts, fashion-house histories and models by country from Tectova.",
-  "version": "1.0.0",
+  "icons": [
+    {
+      "src": "https://tectova.com/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "version": "1.0.1",
   "websiteUrl": "https://tectova.com/tools/mcp",
   "repository": {
     "url": "https://github.com/tectova/tectova-mcp",
